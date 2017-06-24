@@ -36,7 +36,7 @@
 			if(!molotov)
 				lit = 0
 			light_color = null
-			set_light(0)
+			kill_light()
 			isGlass = 1
 			item_state = "glass_empty"
 			switch(reagents.get_master_reagent_id())

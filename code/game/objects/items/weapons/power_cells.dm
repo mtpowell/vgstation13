@@ -133,7 +133,7 @@
 			if(!user.light_range)
 				user.set_light(2,2,"#ffff00")
 				spawn(power_to_use/100 SECONDS)
-					user.set_light(0)
+					user.kill_light()
 
 /obj/item/weapon/cell/slime
 	name = "charged slime core"
